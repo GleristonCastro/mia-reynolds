@@ -30,7 +30,7 @@ const SocialIcons = ({ containerStyles, iconStyles }) => {
     <div className={`${containerStyles}`}>
       {socials.map((item, index) => {
         return (
-        <Link href={item.path} hey={index}>
+        <Link href={item.path} key={index}>
           <div className={`${iconStyles}`}>{item.icon}</div>
         </Link>
         )
