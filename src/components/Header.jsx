@@ -42,10 +42,10 @@ const Header = () => {
         <div className='absolute right-7 top-9 z-10 xl:hidden'>
           <MenuBtn />
         </div>
-        {/* <SocialIcons
+        <SocialIcons
           containerStyles='flex text-[24px] gap-x-4'
           iconStyles='hover:text-accent transition-all'
-        /> */}
+        />
       </div>
     </header>
   )
