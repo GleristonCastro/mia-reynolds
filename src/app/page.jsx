@@ -3,6 +3,7 @@ import Player from '@/components/Player'
 import Events from '@/components/events/Events'
 import Albums from '@/components/albums/Albums'
 import Blog from '@/components/blog/Blog'
+import Newsletter from '@/components/Newsletter'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Events />
       <Albums />
       <Blog />
+      <Newsletter />
     </main>
   )
 }
